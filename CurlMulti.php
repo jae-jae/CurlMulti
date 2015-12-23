@@ -1,4 +1,7 @@
 <?php
+
+namespace QL\Ext\Lib;
+
 /**
  * Chrome	Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.47 Safari/536.11
  * IE6		Mozilla/5.0 (Windows NT 6.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1
@@ -9,7 +12,7 @@
  * @author admin@phpdr.net
  *        
  */
-namespace QueryList\Ext\Library;
+
 class CurlMulti {
 	// url
 	const TASK_ITEM_URL = 0x01;
